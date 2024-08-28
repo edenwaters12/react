@@ -2,9 +2,9 @@ import { useNavigate, useParams } from "react-router-dom";
 import { useEffect, useState } from "react";
 import axiosClient from "../axios-client.js";
 import { useStateContext } from "../context/ContextProvider.jsx";
-import { Input } from "@/components/ui/Input.jsx";
-import { Button } from "@/components/ui/Button.jsx";
-import { Card } from "@/components/ui/Card.jsx";
+import { Input } from "@/components/ui/input.jsx";
+import { Button } from "@/components/ui/button.jsx";
+import { Card } from "@/components/ui/card.jsx";
 import Loader from "@/components/ui/Loader.jsx";
 
 export default function UserForm() {

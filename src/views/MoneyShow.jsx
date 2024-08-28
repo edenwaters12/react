@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import axiosClient from "../axios-client.js";
 import { Button } from "@/components/ui/button.jsx";
-import { Card } from "@/components/ui/Card.jsx";
+import { Card } from "@/components/ui/card.jsx";
 import Loader from "@/components/ui/Loader.jsx";
-import { Textarea } from "@/components/ui/Textarea.jsx";
+import { Textarea } from "@/components/ui/textarea.jsx";
 
 export default function MoneyShow() {
   const { id } = useParams();

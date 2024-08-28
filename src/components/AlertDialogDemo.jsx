@@ -7,7 +7,7 @@ import {
     AlertDialogFooter,
     AlertDialogHeader,
     AlertDialogTitle,
-  } from "@/components/ui/alert-dialog";
+  } from "@/components/ui/alert-dialog.jsx";
   
   export function AlertDialogDemo({ open,onClose, title,onConfirm, description }) {
     return (

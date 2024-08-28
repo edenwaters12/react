@@ -1,8 +1,8 @@
 import { createRef, useState } from "react";
 import axiosClient from "../axios-client.js";
 import { useStateContext } from "../context/ContextProvider.jsx";
-import { Input } from "@/components/ui/Input.jsx";
-import { Card } from "@/components/ui/Card.jsx";
+import { Input } from "@/components/ui/input.jsx";
+import { Card } from "@/components/ui/card.jsx";
 
 export default function Signup() {
   const nameRef = createRef();

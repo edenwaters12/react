@@ -2,7 +2,7 @@ import { useState, useEffect } from "react";
 import axiosClient from "../axios-client.js";
 import { Textarea } from "@/components/ui/textarea.jsx";
 import { Button } from "@/components/ui/button.jsx";
-import { Input } from "@/components/ui/Input.jsx";
+import { Input } from "@/components/ui/input.jsx";
 import {
   Select,
   SelectTrigger,
