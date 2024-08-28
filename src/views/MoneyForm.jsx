@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
-import { Input } from "@/components/ui/Input.jsx";
+import { Input } from "@/components/ui/input.jsx";
 import axiosClient from "../axios-client.js";
 import { Button } from "@/components/ui/button.jsx";
 import { Card } from "@/components/ui/card.jsx";
