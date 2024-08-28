@@ -2,9 +2,9 @@ import { useState, useEffect } from "react";
 import axiosClient from "../axios-client.js";
 import { Select, SelectTrigger, SelectContent, SelectItem } from "@/components/ui/select.jsx";
 import { Link, useNavigate } from "react-router-dom";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import Loader from "@/components/ui/loader"; 
+import { Button } from "@/components/ui/button.jsx";
+import { Card } from "@/components/ui/card.jsx";
+import Loader from "@/components/ui/Loader.jsx"; 
 import { useStateContext } from "@/context/ContextProvider.jsx";
 import { AlertDialogDemo } from "../components/AlertDialogDemo.jsx";
 // import { format } from 'date-fns'; // Import date-fns

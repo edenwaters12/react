@@ -3,7 +3,7 @@ import axiosClient from "../axios-client.js";
 import {createRef} from "react";
 import {useStateContext} from "../context/ContextProvider.jsx";
 import { useState } from "react";
-import { Input } from "@/components/ui/input"
+import { Input } from "@/components/ui/input.jsx"
 import { Button } from "@/components/ui/button.jsx";
 
 export default function Login() {
