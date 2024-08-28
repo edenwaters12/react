@@ -1,5 +1,4 @@
 import React from 'react';
-import { Button } from "@/components/ui/Button.jsx";
 
 const NotFoundPage = () => {
   return (
@@ -9,9 +8,9 @@ const NotFoundPage = () => {
         <p className="mt-4 text-lg text-gray-700 dark:text-gray-300">
           Oops! The page you’re looking for doesn’t exist.
         </p>
-        <Button className="mt-6" onClick={() => window.location.href = '/'}>
+        <button className="mt-6" onClick={() => window.location.href = '/'}>
           Go Back Home
-        </Button>
+        </button>
       </div>
     </div>
   );
