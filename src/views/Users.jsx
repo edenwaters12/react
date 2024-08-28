@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 import axiosClient from "../axios-client.js";
 import { Link } from "react-router-dom";
 import { useStateContext } from "../context/ContextProvider.jsx";
-import { Button } from "@/components/ui/button";
-import { Card } from "@/components/ui/card";
-import Loader from "@/components/ui/loader";
+import { Button } from "@/components/ui/button.jsx";
+import { Card } from "@/components/ui/card.jsx";
+import Loader from "@/components/ui/Loader.jsx";
 import  {AlertDialogDemo}  from "../components/AlertDialogDemo.jsx"; // Adjust the import path as necessary
 
 export default function Users() {
