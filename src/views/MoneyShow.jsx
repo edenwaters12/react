@@ -1,7 +1,7 @@
 import { useEffect, useState } from "react";
 import { useParams, useNavigate, Link } from "react-router-dom";
 import axiosClient from "../axios-client.js";
-import { Button } from "@/components/ui/Button.jsx";
+import { Button } from "@/components/ui/button.jsx";
 import { Card } from "@/components/ui/Card.jsx";
 import Loader from "@/components/ui/Loader.jsx";
 import { Textarea } from "@/components/ui/Textarea.jsx";
