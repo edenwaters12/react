@@ -13,7 +13,7 @@ import {
   SelectTrigger,
   SelectContent,
   SelectItem,
-} from "@/components/ui/Select.jsx";
+} from "@/components/ui/select.jsx";
 import { useStateContext } from "../context/ContextProvider.jsx";
 
 export default function MoneyForm() {
